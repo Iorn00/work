@@ -22,14 +22,14 @@ int main(){
 void fn1(float pay, char status){
     float tax;
     if(status == 'S') tax = 2.0 * pay; else tax = 0.14 * pay;
-    cout << "pay" << tax << endl;
+    cout << "pay " << tax << endl;
     tax = ((status == 'S')? 2.0 * pay : 0.14 * pay);
     cout << "pay ()" << tax << endl;
 }
-void fn2(int pastdue, string accout_no){
+void fn2(int pastdue, string account_no){
     float credit;
-    if(pastdue > 0){
-        cout << "Account naumber " << accout_no << "is overdue\n";
+    if (pastdue >= 0){
+        cout << "Account number " << account_no << " is overdue\n";
         credit = 0;
     }else
     credit = 1000.0;
