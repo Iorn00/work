@@ -36,7 +36,7 @@ void fn3(){
 }
 
 int fn4(){
-    int sum;
+    int sum = 0;
     for(int n=10; n>=1; n--){
         cout << n << endl;
         sum = sum + n;

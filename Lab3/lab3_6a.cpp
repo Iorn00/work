@@ -13,6 +13,5 @@ int main(){
     cout << number << " is " << result << endl;
     cout << " number." << endl;
 
-    
     return (0);
 }
