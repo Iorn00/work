@@ -20,7 +20,5 @@ int main(){
     for (int i = 0; i < sizeof(C)/sizeof(C[0]); i++){
         cout << i << "Address = " << &C[i] << " Value ";
     }
-    
-    
     return 0;
 }
