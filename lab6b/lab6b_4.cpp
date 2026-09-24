@@ -16,11 +16,9 @@ int main(){
     }
     return (0);
 }
-
 void SortString(char Data[][20]){
     int i, j, flag;
     char temp [20];
-
     for (i = 1; i < 5; i++){
         flag = 0;
         for (j = 0; j < 5-1; j++){

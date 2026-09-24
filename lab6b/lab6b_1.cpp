@@ -18,7 +18,6 @@ int main(){
     func3();
     return 0;
 }
-
 void func2(){
     char CH[3][4] = {
         {'S','U','N','D'},
