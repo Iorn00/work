@@ -4,6 +4,7 @@
 #include <time.h>
 using namespace std;
 int main(){
+//โปรแกรมสุ่มตัวเลข 0–99 จำนวน 10 ตัว บันทึกลงไฟล์ที่ผู้ใช้กำหนด จากนั้นเปิดไฟล์เพื่ออ่านและแสดงตัวเลขออกทางหน้าจอ
     string FileName;
     ifstream InFile;
     ofstream OutFile;

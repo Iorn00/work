@@ -6,6 +6,7 @@ using namespace std;
 void GetandWrite(ofstream & OutFile);
 void ReadandDisplay(ifstream &Infile);
 int main(){
+//รับข้อมูลนักเรียน 3 คน > บันทึกลงไฟล์ > อ่านไฟล์ > แสดงข้อมูลนักเรียน
     string Filename;
     ofstream OutFile;
     ifstream InFile;
@@ -29,7 +30,6 @@ int main(){
 void GetandWrite(ofstream & OutFile){
     string Id, Name, Surname;
     int Score;
-
     for (int n = 1; n <= 3; n++){
         cout << "Student No. " << n << endl;
         cout << "Enter Id : ";
@@ -55,5 +55,4 @@ void ReadandDisplay(ifstream &Infile){
         cout << "Id : " << Id << " Name : " << Name << " " << Surname << endl;
         cout << "Score : " << Score << endl;
     }
-    
 }
